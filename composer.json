@@ -10,6 +10,12 @@
 			"homepage": "http://vasekpurchart.cz"
 		}
 	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/galeaspablo/Doctrine-Date-Time-Immutable-Types"
+		}
+	],
 	"require": {
 		"php": "~5.6|~7.0",
 		"doctrine/doctrine-bundle": "~1.3",
@@ -17,7 +23,7 @@
 		"symfony/dependency-injection": "~2.6|~3.0",
 		"symfony/http-kernel": "~2.6|~3.0",
 		"symfony/yaml": "~2.6|~3.0",
-		"vasek-purchart/doctrine-date-time-immutable-types": "~0.3.0"
+		"vasek-purchart/doctrine-date-time-immutable-types": "dev-patch-dbal-2.6.x"
 	},
 	"require-dev": {
 		"consistence/coding-standard": "0.11.1",
